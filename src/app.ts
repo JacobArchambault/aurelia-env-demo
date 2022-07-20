@@ -1,3 +1,4 @@
+import environment from '../config/environment.json';
 export class App {
-  public message = 'Hello World!';
+  public message = environment.stringVal;
 }
